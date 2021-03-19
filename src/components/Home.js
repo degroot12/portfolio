@@ -4,7 +4,9 @@ export default function Home() {
     return (
         <div>
             <h1>Thomas de Groot</h1>
+            <a id='my-projects'>
             <h2>My Projects:</h2>
+            </a>
             <div className='game-summary'>
             <h3>Super-Max</h3>
             <img src='./supermax-game-normal.png'></img>

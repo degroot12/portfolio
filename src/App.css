@@ -12,3 +12,9 @@
   justify-content: center;
   text-align: left;
 }
+
+@media (min-device-width:800px) {
+  .game-summary {
+    width: 500px;
+  }
+}
