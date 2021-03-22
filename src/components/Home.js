@@ -21,6 +21,15 @@ export default function Home() {
                 based on the price, prepare time or wether it is vegan or not.
                 You can also add you own recipes to the database</p>
             </div>
+            <div className='game-summary'>
+                <h3>Band-Square</h3>
+                {/* <img src='./'/> */}
+                <p>Band-Square is a platform where musicians can connect with other muscians. 
+                   If you have a band you can look for other people to join your band, of look for venues where you 
+                   can book a practice session.
+                   If you don't have a band, you can look for bands to join!
+                   </p>
+            </div>
         </div>
     )
 }
