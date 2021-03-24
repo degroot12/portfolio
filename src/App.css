@@ -18,3 +18,7 @@
     width: 500px;
   }
 }
+
+.nav-links {
+  display: flex;
+}
