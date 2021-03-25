@@ -4,6 +4,7 @@ import Contact from './components/Contact';
 import Home from './components/Home';
 import NavComponent from './components/NavComponent';
 import { Switch, Route, withRouter} from 'react-router-dom'
+import Projects from './components/Projects';
 
 function App() {
   return (
@@ -14,6 +15,10 @@ function App() {
     <Switch>
       <Route exact path='/' render={(routeProps) => {
         return <Home {...routeProps} />
+      }}
+      />
+      <Route path='/projects' render={(routeProps) => {
+        return <Projects {...routeProps} />
       }}
       />
       <Route path='/contact' render={(routeProps) => {

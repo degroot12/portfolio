@@ -10,8 +10,8 @@ function NavComponent() {
         <Navbar.Brand href="#home">Thomas</Navbar.Brand>
         <Nav className="mr-auto">
         <div className='nav-links'>
-          <Link to="/">Home</Link>
-          <Link to="/contact">Contact</Link>
+          <Link to="/projects" className='nav-link'>Projects</Link>
+          <Link to="/contact" className='nav-link'>Contact</Link>
           </div>
         </Nav>
       </Navbar>
