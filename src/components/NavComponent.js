@@ -7,7 +7,7 @@ function NavComponent() {
   return (
     <div>
       <Navbar bg="dark" variant="dark" fixed="top">
-        <Navbar.Brand href="#home">Thomas</Navbar.Brand>
+        <Link to="/" className='navbar-brand'>Thomas</Link>
         <Nav className="mr-auto">
         <div className='nav-links'>
           <Link to="/projects" className='nav-link'>Projects</Link>

@@ -22,3 +22,16 @@
 .nav-links {
   display: flex;
 }
+
+.mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 920px) {
+  .mobile {
+    display: initial;
+  }
+  .non-mobile {
+    display: none;
+  }
+}

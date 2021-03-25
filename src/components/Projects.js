@@ -8,7 +8,9 @@ function Projects() {
             <img src='./supermax-game-normal.png'></img>
             <p>Super-Max is a Canvas game where you have to avoid obstacles and collect points.
                 If your score is higher than Lewis Hamilton's you win!
-                The game has argualy the greatest soundtrack of all time! </p><p><a href='https://degroot12.github.io/Super-Max' target='_blank'>Play the game</a></p>
+                The game has argualy the greatest soundtrack of all time! </p>
+                <p className='non-mobile'><a href='https://degroot12.github.io/Super-Max' target='_blank'>Play the game</a></p>
+                <p className='mobile'>Unfortunately the game can't be play on mobile. Switch to a desktop to enjoy the game!</p>
             </div>
             <div className='game-summary'>
             <h3>Click-n-Meal</h3>
