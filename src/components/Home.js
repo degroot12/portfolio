@@ -1,12 +1,25 @@
 import React from "react";
+import { FaGithub, FaLinkedin, FaRegEnvelope } from 'react-icons/fa'
+
 function Home() {
   return (
-    <div>
-      <div>
+    <div className='homepage'>
+      <div className='title'>
         <h1>Thomas de Groot</h1>
       </div>
-      <div>
-          <a href='https://www.linkedin.com/in/thomas-degroot/'>Linkedin</a><a href='https://github.com/degroot12'>GitHub</a><a href='degroot12@gmail.com'>Mail</a>
+      <div className='info-links'>
+      <div className='info-link'>
+      <a href='https://www.linkedin.com/in/thomas-degroot/'><FaLinkedin />Linkedin</a>
+      </div>
+      <div className='info-link'>
+      <a href='https://github.com/degroot12'><FaGithub />GitHub</a>
+      </div>
+      <div className='info-link'>
+      <a href='degroot12@gmail.com'><FaRegEnvelope />Mail</a>
+      </div>
+         
+          
+          
       </div>
     </div>
   );
