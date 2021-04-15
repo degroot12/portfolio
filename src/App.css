@@ -1,11 +1,11 @@
 .App {
   display: flex;
-  justify-content: center;
-  text-align: center;
+  /* text-align: center; */
   margin-top: 60px;
+  font-size: 20px;
 }
 
-.game-summary {
+.project-summary {
   width: 350px;
   display: flex;
   flex-direction: column;
@@ -15,7 +15,6 @@
 
 .homepage {
   display: flex;
-  flex-direction: column;
 }
 
 .info-link{
@@ -23,8 +22,9 @@
 }
 
 @media (min-device-width:800px) {
-  .game-summary {
+  .project-summary {
     width: 500px;
+    margin-bottom: 100px;
   }
 }
 
@@ -53,9 +53,24 @@
 .navigation{
   display: flex;
   flex-direction: column;
+  position: fixed;
+  /* align-items: flex-start; */
+  margin-top: 0;
+  margin-left: 20px;
 }
 
 .about-contact{
   display: flex;
   flex-direction: column;
+}
+
+.about-contact a {
+  color: rgb(123, 128, 131);
+}
+
+.projects{
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
 }
