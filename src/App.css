@@ -49,3 +49,13 @@
   display: flex;
   width: 500px;
 }
+
+.navigation{
+  display: flex;
+  flex-direction: column;
+}
+
+.about-contact{
+  display: flex;
+  flex-direction: column;
+}

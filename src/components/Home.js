@@ -4,6 +4,13 @@ import React from "react";
 function Home() {
   return (
     <div className='homepage'>
+      <div className='navigation'>
+        <h3>Thomas de Groot</h3>
+        <div className='about-contact'>
+          <a href='/about'>About</a>
+          <a href="mailto:thomas@thomasdegroot.dev">Contact</a>
+        </div>
+      </div>
       <div className='game-summary'>
 
             <img src='./supermax-game-normal.png' alt='screenshot max verstappen game'></img>
@@ -19,7 +26,7 @@ function Home() {
             <div className='screenshots-click-meal'>
             
             {/* <div> */}
-            <img src='/click-n-meal-create-page.png' alt='screenshot click and meal create recipe page'/>
+            {/* <img src='/click-n-meal-create-page.png' alt='screenshot click and meal create recipe page'/> */}
             {/* </div> */}
             {/* <div> */}
             <img src='./Click-n-meal-preview.png' alt='screenshot click and meal app'/>
