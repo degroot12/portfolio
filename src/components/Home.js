@@ -27,7 +27,7 @@ function Home() {
           {/* <img src='/click-n-meal-create-page.png' alt='screenshot click and meal create recipe page'/> */}
           {/* </div> */}
           {/* <div> */}
-          <img src='./Click-n-meal-preview.png' alt='screenshot click and meal app'/>
+          <img src='./iphone-click-meal-full.png' alt='screenshot click and meal app'/>
           {/* </div> */} 
           </div> 
           <h3>Click-n-Meal</h3>
