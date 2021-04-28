@@ -19,17 +19,17 @@ function Home() {
 
       </div>
       <div className='projects'>
-        <div className='project-summary'>
+        <div className='project-summary '>
           
-          <div className='screenshots-click-meal'>
+         
         
           {/* <div> */}
           {/* <img src='/click-n-meal-create-page.png' alt='screenshot click and meal create recipe page'/> */}
           {/* </div> */}
           {/* <div> */}
-          <img src='./iphone-click-meal-full.png' alt='screenshot click and meal app'/>
+          <img src='./double-click-meal.png' alt='screenshot click and meal app'/>
           {/* </div> */} 
-          </div> 
+         
           <h3>Click-n-Meal</h3>
              <p>Click-n-Meal is an easy way to find the recipes to your liking. You can filter the recipes 
                  based on the price, prepare time or wether it is vegan or not.
