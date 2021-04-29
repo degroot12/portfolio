@@ -9,7 +9,7 @@ function Home() {
           <h3>Thomas de Groot</h3>
           <div className='about-contact'>
             <a href='/about'>About</a>
-            <a href="mailto:thomas@thomasdegroot.dev">Contact</a>
+            <a href="mailto:me@thomasdegroot.dev">Contact</a>
           </div>
           <div>
             
@@ -20,20 +20,11 @@ function Home() {
       </div>
       <div className='projects'>
         <div className='project-summary '>
-          
-         
-        
-          {/* <div> */}
-          {/* <img src='/click-n-meal-create-page.png' alt='screenshot click and meal create recipe page'/> */}
-          {/* </div> */}
-          {/* <div> */}
           <img src='./double-click-meal.png' alt='screenshot click and meal app'/>
-          {/* </div> */} 
-         
           <h3>Click-n-Meal</h3>
              <p>Click-n-Meal is an easy way to find the recipes to your liking. You can filter the recipes 
                  based on the price, prepare time or wether it is vegan or not.
-                 You can also add you own recipes to the database</p><p><a href='https://click-n-meal.herokuapp.com' target='_blank' rel='noreferrer'>Show me the app</a></p>
+                 You can also add you own recipes to the database</p><p><a className='click-meal-color-link' href='https://click-n-meal.herokuapp.com' target='_blank' rel='noreferrer'>Show me the app</a></p>
           </div>
         <div className='project-summary'>
           <img src='./supermax-game-normal.png' alt='screenshot max verstappen game'></img>
